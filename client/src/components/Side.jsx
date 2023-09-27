@@ -13,7 +13,10 @@ const Side = () => {
   return (
     <section className={`${style.sideContainer} ${expanded && style.expanded}`}>
       <div className={style.sideContentContainer}>
-        <div className="d-flex justify-content-between align-items-baseline">
+        <div
+          className="d-flex justify-content-between align-items-baseline"
+          style={{ marginBottom: "15vh" }}
+        >
           <button className={style.toggleSide} onClick={handleToggle}>
             {expanded ? "Close" : "Open"}
           </button>

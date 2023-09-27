@@ -16,8 +16,8 @@ font-family: 'Roboto Mono', monospace;
 
 body {
   margin: 0 !important;
-  padding: 5% !important;
-  background-color: #fdfaf6 !important;
+  padding: 20px !important;
+  background-color: white !important;
   font-family: "Raleway", sans-serif;
 }
 
@@ -35,6 +35,11 @@ a,
 button {
   font-size: 14px;
   line-height: 20px;
+}
+
+span {
+  line-height: 1.5;
+  font-size: 25px;
 }
 
 /*hide scrollbar*/

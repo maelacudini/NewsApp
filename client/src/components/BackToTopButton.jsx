@@ -15,11 +15,13 @@ const BackToTopButton = () => {
 
   return (
     <div
-      className="d-flex justify-content-between aling-items-baseline"
+      className="d-flex justify-content-between"
       style={{ marginTop: "15vh" }}
     >
-      <p className="m-0">SOME COPIRIGHT STATEMENT ©</p>
-      <button className={style.backToTopButton} onClick={scrollToTop}>
+      <div className="d-flex align-items-end">
+        <p>SOME COPIRIGHT STATEMENT - 2023</p>
+      </div>
+      <button className={style.toggleSide} onClick={scrollToTop}>
         BACK TO TOP
       </button>
     </div>

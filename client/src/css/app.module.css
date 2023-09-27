@@ -16,7 +16,7 @@
 
 /*side */
 .sideContainer {
-  background-color: #e0e2d8;
+  background-color: #e3e3e3;
   z-index: 99;
   width: 100px;
   overflow: hidden;
@@ -37,7 +37,7 @@
   position: fixed;
   width: 90%;
   height: 100%;
-  padding: 5%;
+  padding: 20px;
   overflow-y: auto;
 }
 
@@ -79,7 +79,6 @@
   padding: 10px;
   border: 1px solid rgba(0, 0, 0, 0.3);
   transition: all 0.3s;
-  margin-bottom: 15vh;
 }
 
 .toggleSide:hover {
